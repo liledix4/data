@@ -1,12 +1,14 @@
 {
     "$schema": "../apig.schema.json",
+    "updated": "2025-01-16",
     "load_directories": [
         "public", "partner_only", "store"
     ],
     "links": [
         "https://partner.steamgames.com/doc",
         "https://steamapi.xpaw.me",
-        "https://developer.valvesoftware.com/wiki/Steam_Web_API"
+        "https://developer.valvesoftware.com/wiki/Steam_Web_API",
+        "https://github.com/SteamDatabase/SteamTracking"
     ],
     "shared_properties": {
         "appid": {

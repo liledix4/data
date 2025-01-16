@@ -1,4 +1,5 @@
 {
     "$schema": "../../apig.schema.json",
+    "updated": "2025-01-16",
     "base_url": "https://partner.steam-api.com/"
 }

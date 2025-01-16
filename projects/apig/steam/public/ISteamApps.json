@@ -1,5 +1,6 @@
 {
     "$schema": "../../apig.schema.json",
+    "updated": "2025-01-16",
     "base_url": "ISteamApps/",
     "methods": {
         "GetAppList": {
