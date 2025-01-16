@@ -1,0 +1,6 @@
+{
+    "$schema": "./apig.schema.json",
+    "load_directories": [
+        "steam"
+    ]
+}

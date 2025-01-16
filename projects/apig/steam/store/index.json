@@ -1,0 +1,15 @@
+{
+    "$schema": "../../apig.schema.json",
+    "base_url": "https://store.steampowered.com/api/",
+    "methods": {
+        "appdetails": {
+            "url": "appdetails",
+            "get": {
+                "appids": {
+                    "shared": "appid",
+                    "multiple": false
+                }
+            }
+        }
+    }
+}

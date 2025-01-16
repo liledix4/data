@@ -1,0 +1,186 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "additionalProperties": false,
+    "minProperties": 2,
+    "properties": {
+        "$schema": {
+            "type": "string",
+            "pattern": "/apig\\.schema\\.json$"
+        },
+        "load_directories": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string",
+                "minLength": 1
+            }
+        },
+        "load_json": {"$ref": "#/properties/load_directories"},
+        "links": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string",
+                "pattern": "https?://.+"
+            }
+        },
+        "base_url": {
+            "type": "string",
+            "minLength": 1
+        },
+        "shared_properties": {
+            "type": "object",
+            "minProperties": 1,
+            "patternProperties": {
+                ".*": {"$ref": "#/__shared_properties"}
+            }
+        },
+        "methods": {
+            "type": "object",
+            "minProperties": 1,
+            "patternProperties": {
+                ".*": {"$ref": "#/__methods"}
+            }
+        },
+        "helpers": {
+            "type": "object",
+            "minProperties": 1,
+            "patternProperties": {
+                ".*": {"$ref": "#/__helpers"}
+            }
+        }
+    },
+    "__shared_properties": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "title": {"$ref": "#/__title"},
+            "description": {"$ref": "#/__description"},
+            "input_values": {"$ref": "#/__input_values"}
+        }
+    },
+    "__input_values": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "pattern": {
+                "type": "string",
+                "minLength": 1
+            }
+        }
+    },
+    "__title": {
+        "type": "string",
+        "minLength": 1
+    },
+    "__description": {
+        "type": "string",
+        "minLength": 1
+    },
+    "__methods": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "title": {"$ref": "#/__title"},
+            "description": {"$ref": "#/__description"},
+            "base_url": {"$ref": "#/properties/base_url"},
+            "url": {"$ref": "#/properties/base_url"},
+            "get":      {"$ref": "#/__http_method"},
+            "head":     {"$ref": "#/__http_method"},
+            "post":     {"$ref": "#/__http_method"},
+            "put":      {"$ref": "#/__http_method"},
+            "delete":   {"$ref": "#/__http_method"},
+            "connect":  {"$ref": "#/__http_method"},
+            "options":  {"$ref": "#/__http_method"},
+            "trace":    {"$ref": "#/__http_method"},
+            "patch":    {"$ref": "#/__http_method"},
+            "versions": {
+                "type": "object",
+                "minProperties": 1,
+                "patternProperties": {
+                    ".*": {"$ref": "#/__methods"}
+                }
+            }
+        }
+    },
+    "__helpers": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "title": {"$ref": "#/__title"},
+            "special_properties": {
+                "type": "object",
+                "minProperties": 1,
+                "additionalProperties": false,
+                "patternProperties": {
+                    ".*": {"$ref": "#/__helper_property"}
+                }
+            }
+        }
+    },
+    "__helper_property": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "title": {"$ref": "#/__title"},
+            "input_values": {"$ref": "#/__input_values"},
+            "return_to": {
+                "type": "object",
+                "minProperties": 1,
+                "additionalProperties": false,
+                "patternProperties": {
+                    ".*": {
+                        "type": "string",
+                        "minLength": 1
+                    }
+                }
+            }
+        }
+    },
+    "__http_method": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "$required": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                    "type": "string",
+                    "minLength": 1
+                }
+            }
+        },
+        "patternProperties": {
+            ".*": {"$ref": "#/__http_method_value"}
+        }
+    },
+    "__http_method_value": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": false,
+        "properties": {
+            "shared": {
+                "type": "string",
+                "minLength": 1
+            },
+            "type": {
+                "type": "string",
+                "enum": ["string", "int", "float", "boolean", "select"]
+            },
+            "input_values": {"$ref": "#/__input_values"},
+            "multiple": {
+                "type": "boolean"
+            },
+            "delimiter": {
+                "type": "string",
+                "minLength": 1
+            }
+        }
+    }
+}

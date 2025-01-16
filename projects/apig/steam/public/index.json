@@ -1,0 +1,8 @@
+{
+    "$schema": "../../apig.schema.json",
+    "base_url": "https://api.steampowered.com/",
+    "load_json": [
+        "ISteamApps",
+        "IWishlistService"
+    ]
+}

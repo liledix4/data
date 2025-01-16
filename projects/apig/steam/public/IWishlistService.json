@@ -1,0 +1,20 @@
+{
+    "$schema": "../../apig.schema.json",
+    "base_url": "IWishlistService/",
+    "methods": {
+        "GetWishlistItemCount": {
+            "description": "Returns the amount of wishlisted items",
+            "base_url": "GetWishlistItemCount/",
+            "versions": {
+                "v1": {
+                    "url": "v1",
+                    "get": {
+                        "$required": ["steamid"],
+                        "key":      {"shared": "key"},
+                        "steamid":  {"shared": "steamid64"}
+                    }
+                }
+            }
+        }
+    }
+}

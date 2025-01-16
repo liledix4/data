@@ -1,0 +1,50 @@
+{
+    "$schema": "../apig.schema.json",
+    "load_directories": [
+        "public", "partner_only", "store"
+    ],
+    "links": [
+        "https://partner.steamgames.com/doc",
+        "https://steamapi.xpaw.me",
+        "https://developer.valvesoftware.com/wiki/Steam_Web_API"
+    ],
+    "shared_properties": {
+        "appid": {
+            "title": "Application ID",
+            "description": "You can find this ID number if you open any store page, like this: https://store.steampowered.com/app/731490/Crash_Bandicoot_N_Sane_Trilogy/ – 731490 is application ID",
+            "input_values": {
+                "pattern": "^\\d+$"
+            }
+        },
+        "key": {
+            "title": "API key",
+            "description": "You can get one here: https://steamcommunity.com/dev/apikey",
+            "input_values": {
+                "pattern": "^[0-9A-F]{32}$"
+            }
+        },
+        "steamid64": {
+            "title": "Steam user ID (steamID64)",
+            "description": "Format should be steamID64. See: https://steamid.io",
+            "input_values": {
+                "pattern": "^\\d+$"
+            }
+        }
+    },
+    "helpers": {
+        "url_to_app_id": {
+            "title": "Extract application ID from URL address",
+            "special_properties": {
+                "url": {
+                    "title": "Steam Store URL",
+                    "input_values": {
+                        "pattern": "^https?://store\\.steampowered\\.com/app/(\\d+)"
+                    },
+                    "return_to": {
+                        "appid": "$1"
+                    }
+                }
+            }
+        }
+    }
+}

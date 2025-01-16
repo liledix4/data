@@ -1,0 +1,4 @@
+{
+    "$schema": "../../apig.schema.json",
+    "base_url": "https://partner.steam-api.com/"
+}

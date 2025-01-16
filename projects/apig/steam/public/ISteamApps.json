@@ -1,0 +1,15 @@
+{
+    "$schema": "../../apig.schema.json",
+    "base_url": "ISteamApps/",
+    "methods": {
+        "GetAppList": {
+            "description": "Returns the list of all apps",
+            "base_url": "GetAppList/",
+            "versions": {
+                "v2": {
+                    "url": "v2"
+                }
+            }
+        }
+    }
+}

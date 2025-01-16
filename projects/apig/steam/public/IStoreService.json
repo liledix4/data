@@ -1,0 +1,24 @@
+{
+    "$schema": "../../apig.schema.json",
+    "base_url": "IStoreService/",
+    "methods": {
+        "GetAppList": {
+            "description": "Returns the list of all apps",
+            "base_url": "GetAppList/",
+            "versions": {
+                "v1": {
+                    "url": "v1",
+                    "get": {
+                        "$required":        ["key"],
+                        "key":              {"shared": "key"},
+                        "include_games":    {"type": "boolean"},
+                        "include_dlc":      {"type": "boolean"},
+                        "include_software": {"type": "boolean"},
+                        "include_videos":   {"type": "boolean"},
+                        "include_hardware": {"type": "boolean"}
+                    }
+                }
+            }
+        }
+    }
+}
