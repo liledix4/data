@@ -3,48 +3,56 @@
     "type": "general",
     "title": "General",
     "url": "liledix4@gmail.com",
-    "color": "#009444"
+    "color": "#009444",
+    "ical": "https://calendar.google.com/calendar/ical/liledix4%40gmail.com/public/basic.ics"
   },
   {
     "type": "4thoughts",
     "title": "4thoughts",
     "url": "e827fd6268765981075e46df70051fc8dd737bc94700dd6bfe8aa4b911caeeee@group.calendar.google.com",
-    "color": "#a5998c"
+    "color": "#a5998c",
+    "ical": "https://calendar.google.com/calendar/ical/e827fd6268765981075e46df70051fc8dd737bc94700dd6bfe8aa4b911caeeee%40group.calendar.google.com/public/basic.ics"
   },
   {
     "type": "bvs",
     "title": "Bombs vs. Sleepwalkers",
     "url": "480ce84ba440d692cc94f4471eb341a2325214dcf99e547f883792a29db6d529@group.calendar.google.com",
-    "color": "#006fff"
+    "color": "#006fff",
+    "ical": "https://calendar.google.com/calendar/ical/480ce84ba440d692cc94f4471eb341a2325214dcf99e547f883792a29db6d529%40group.calendar.google.com/public/basic.ics"
   },
   {
     "type": "maintenance",
     "title": "Maintenance",
     "url": "ab875d701689e7f1f836b10bb2761e698bc38a768a59b6c1e1d5c83713fdc7e2@group.calendar.google.com",
-    "color": "#c05476"
+    "color": "#c05476",
+    "ical": "https://calendar.google.com/calendar/ical/ab875d701689e7f1f836b10bb2761e698bc38a768a59b6c1e1d5c83713fdc7e2%40group.calendar.google.com/public/basic.ics"
   },
   {
     "type": "music",
     "title": "Music",
     "url": "35c6df6904b0d75b77f6ca35788bba9b2ad5dfed74b0f20536ee6f548d08a044@group.calendar.google.com",
-    "color": "#009444"
+    "color": "#009444",
+    "ical": "https://calendar.google.com/calendar/ical/35c6df6904b0d75b77f6ca35788bba9b2ad5dfed74b0f20536ee6f548d08a044%40group.calendar.google.com/public/basic.ics"
   },
   {
     "type": "redacted",
     "title": "Redacted Projects",
     "url": "29eff090675ec4fb1ce75e1d63d213cf329146a25e6e59f1debc7528206dc28b@group.calendar.google.com",
-    "color": "#e7ba51"
+    "color": "#e7ba51",
+    "ical": "https://calendar.google.com/calendar/ical/29eff090675ec4fb1ce75e1d63d213cf329146a25e6e59f1debc7528206dc28b%40group.calendar.google.com/public/basic.ics"
   },
   {
     "type": "webprojects",
     "title": "Web Projects",
     "url": "57b88de27c5bacb8f90d6d37d5171fcb0375844a08113a144ea9e86c5d176238@group.calendar.google.com",
-    "color": "#009444"
+    "color": "#009444",
+    "ical": "https://calendar.google.com/calendar/ical/57b88de27c5bacb8f90d6d37d5171fcb0375844a08113a144ea9e86c5d176238%40group.calendar.google.com/public/basic.ics"
   },
   {
     "type": "writing",
     "title": "Writing",
     "url": "23a35503c7914a7850737abe0fd4b2adc16c9a03d411dd5e0badcffe62e65921@group.calendar.google.com",
-    "color": "#e4e499"
+    "color": "#e4e499",
+    "ical": "https://calendar.google.com/calendar/ical/23a35503c7914a7850737abe0fd4b2adc16c9a03d411dd5e0badcffe62e65921%40group.calendar.google.com/public/basic.ics"
   }
 ]
