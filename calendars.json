@@ -18,6 +18,12 @@
     "color": "#006fff"
   },
   {
+    "type": "maintenance",
+    "title": "Maintenance",
+    "url": "ab875d701689e7f1f836b10bb2761e698bc38a768a59b6c1e1d5c83713fdc7e2@group.calendar.google.com",
+    "color": "#c05476"
+  },
+  {
     "type": "music",
     "title": "Music",
     "url": "35c6df6904b0d75b77f6ca35788bba9b2ad5dfed74b0f20536ee6f548d08a044@group.calendar.google.com",
