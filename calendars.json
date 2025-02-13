@@ -6,6 +6,12 @@
     "color": "#009444"
   },
   {
+    "type": "4thoughts",
+    "title": "4thoughts",
+    "url": "e827fd6268765981075e46df70051fc8dd737bc94700dd6bfe8aa4b911caeeee@group.calendar.google.com",
+    "color": "#a5998c"
+  },
+  {
     "type": "bvs",
     "title": "Bombs vs. Sleepwalkers",
     "url": "480ce84ba440d692cc94f4471eb341a2325214dcf99e547f883792a29db6d529@group.calendar.google.com",
@@ -16,6 +22,12 @@
     "title": "Music",
     "url": "35c6df6904b0d75b77f6ca35788bba9b2ad5dfed74b0f20536ee6f548d08a044@group.calendar.google.com",
     "color": "#009444"
+  },
+  {
+    "type": "redacted",
+    "title": "Redacted Projects",
+    "url": "29eff090675ec4fb1ce75e1d63d213cf329146a25e6e59f1debc7528206dc28b@group.calendar.google.com",
+    "color": "#e7ba51"
   },
   {
     "type": "webprojects",
