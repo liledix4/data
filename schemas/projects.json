@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "minProperties": 1,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "pattern": "\/projects\\.json$"
+    },
+    "main":
+      {"$ref": "#/_project_category"},
+    "redacted":
+      {"$ref": "#/_project_category"},
+    "micro":
+      {"$ref": "#/_project_category"},
+    "modules":
+      {"$ref": "#/_project_category"},
+    "experiments":
+      {"$ref": "#/_project_category"},
+    "graveyard":
+      {"$ref": "#/_project_category"},
+    "formerly":
+      {"$ref": "#/_project_category"}
+  },
+  "_project_category": {
+    "type": "array",
+    "minItems": 1,
+    "items": {"$ref": "#/_project_object"}
+  },
+  "_url": {
+    "type": "string",
+    "pattern": "^https:\\/\\/[0-9a-z_=&\\-\\.\\/\\?]+$"
+  },
+  "_project_object": {
+    "type": "object",
+    "required": ["id"],
+    "additionalProperties": false,
+    "minProperties": 1,
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[0-9a-z_]+$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[0-9A-Za-z_!–, ]+$"
+      },
+      "versioning": {
+        "type": "string",
+        "enum": ["standard", "dates", "youtube_posting_date"]
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[0-9A-Za-z_,–!“”’\\-\\?\\.\\n ]+$"
+      },
+      "github_version_file": {
+        "type": "boolean"
+      },
+      "authors": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9A-Za-z ]+$"
+        }
+      },
+      "merged_with": {
+        "type": "array",
+        "minItems": 1,
+        "items": {"$ref": "#/_project_object/properties/id"}
+      },
+      "url": {
+        "type": "object",
+        "additionalProperties": false,
+        "minProperties": 1,
+        "properties": {
+          "github": {
+            "type": "array",
+            "minItems": 1,
+            "items": {"$ref": "#/_url"}
+          }
+        }
+      }
+    }
+  }
+}

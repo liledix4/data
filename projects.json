@@ -1,5 +1,5 @@
 {
-"$schema": null,
+"$schema": "./schemas/projects.json",
 "main": [
   {
     "id": "3do",
@@ -11,6 +11,9 @@
   },
   {
     "id": "9"
+  },
+  {
+    "id": "bookmarker"
   },
   {
     "id": "bvs"
@@ -86,7 +89,9 @@
     "id": "liledix4_php",
     "title": "liledix4 PHP",
     "description": "PHP-powered features for liledix4 website.",
-    "github": "https://github.com/liledix4/liledix4_php",
+    "url": {
+      "github": ["https://github.com/liledix4/liledix4_php"]
+    },
     "github_version_file": true,
     "authors": ["liledix4"]
   },
@@ -195,6 +200,5 @@
     "id": "secretly_inc",
     "merged_with": ["bvs"]
   }
-],
-"formerly": []
+]
 }
