@@ -9,7 +9,7 @@
             "type": "string",
             "pattern": "/apig\\.schema\\.json$"
         },
-        "updated": {"$ref": "../../schemas/time_formats.schema.json#/patterns/date/YYYY-MM-DD"},
+        "updated": {"$ref": "https://liledix4.github.io/json_schemas/time_formats.json#/patterns/date/YYYY-MM-DD"},
         "load_directories": {
             "type": "array",
             "minItems": 1,
@@ -71,6 +71,20 @@
             "pattern": {
                 "type": "string",
                 "minLength": 1
+            },
+            "specific": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                    "type": ["string", "number", "boolean"],
+                    "minLength": 1
+                }
+            },
+            "min": {
+                "type": "number"
+            },
+            "max": {
+                "type": "number"
             }
         }
     },
@@ -165,8 +179,8 @@
     },
     "__http_method_value": {
         "type": "object",
-        "minProperties": 1,
         "additionalProperties": false,
+        "required": ["type"],
         "properties": {
             "shared": {
                 "type": "string",
@@ -175,6 +189,10 @@
             "type": {
                 "type": "string",
                 "enum": ["string", "int", "float", "boolean", "select"]
+            },
+            "description": {
+                "type": "string",
+                "minLength": 1
             },
             "input_values": {"$ref": "#/__input_values"},
             "multiple": {
