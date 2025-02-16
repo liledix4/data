@@ -57,6 +57,9 @@
     "id": "liledix4_api"
   },
   {
+    "id": "liledix4_bsky"
+  },
+  {
     "id": "liledix4_discord_bot"
   },
   {
@@ -75,6 +78,9 @@
     "github": "https://github.com/liledix4/liledix4_php",
     "github_version_file": true,
     "authors": ["liledix4"]
+  },
+  {
+    "id": "liledix4_revolt"
   },
   {
     "id": "liledix4_telegram_bot"
