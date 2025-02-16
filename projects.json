@@ -1,0 +1,172 @@
+{
+"$schema": null,
+"main": [
+  {
+    "id": "4"
+  },
+  {
+    "id": "9"
+  },
+  {
+    "id": "bvs"
+  },
+  {
+    "id": "bvs_bevy"
+  },
+  {
+    "id": "bvs_godot"
+  },
+  {
+    "id": "bvs_html"
+  },
+  {
+    "id": "bvs_php"
+  },
+  {
+    "id": "bvs_unity"
+  },
+  {
+    "id": "bvs_website"
+  },
+  {
+    "id": "bvs_youtube"
+  },
+  {
+    "id": "cal"
+  },
+  {
+    "id": "coffeebeam"
+  },
+  {
+    "id": "data",
+    "versioning": false
+  },
+  {
+    "id": "ddlcnh"
+  },
+  {
+    "id": "ddlcnh_php"
+  },
+  {
+    "id": "ddlcnh_website"
+  },
+  {
+    "id": "ddlcnh_youtube"
+  },
+  {
+    "id": "liledix4_api"
+  },
+  {
+    "id": "liledix4_discord_bot"
+  },
+  {
+    "id": "liledix4_discord_server"
+  },
+  {
+    "id": "liledix4_google_drive"
+  },
+  {
+    "id": "liledix4_mega"
+  },
+  {
+    "id": "liledix4_php",
+    "title": "liledix4 PHP",
+    "description": "PHP-powered features for liledix4 website.",
+    "github": "https://github.com/liledix4/liledix4_php",
+    "github_version_file": true,
+    "authors": ["liledix4"]
+  },
+  {
+    "id": "liledix4_telegram_bot"
+  },
+  {
+    "id": "liledix4_telegram_channel"
+  },
+  {
+    "id": "liledix4_website"
+  },
+  {
+    "id": "liledix4_youtube"
+  },
+  {
+    "id": "micro"
+  },
+  {
+    "id": "music_player"
+  },
+  {
+    "id": "music_production"
+  },
+  {
+    "id": "video_production"
+  }
+],
+"redacted": [
+  {
+    "id": "_red_cross"
+  },
+  {
+    "id": "_red_sv_co"
+  },
+  {
+    "id": "_red_sv_mi"
+  },
+  {
+    "id": "_red_sv_ng"
+  },
+  {
+    "id": "_red_sv_quth"
+  },
+  {
+    "id": "_red_sv_ts"
+  },
+  {
+    "id": "_red_sv_wa"
+  },
+  {
+    "id": "_red_sv_xm"
+  }
+],
+"micro": [
+  {
+    "id": "2fountain"
+  },
+  {
+    "id": "apig"
+  }
+],
+"modules": [
+  {
+    "id": "js_mime_presets"
+  },
+  {
+    "id": "js_xhr_ajax"
+  }
+],
+"experiments": [
+  {
+    "id": "local_server"
+  },
+  {
+    "id": "vercel"
+  }
+],
+"graveyard": [
+  {
+    "id": "edimensions",
+    "merged_with": ["bvs"]
+  },
+  {
+    "id": "lil_geeky_discord_server",
+    "merged_with": ["liledix4_discord_server"]
+  },
+  {
+    "id": "retribute",
+    "merged_with": ["bvs"]
+  },
+  {
+    "id": "secretly_inc",
+    "merged_with": ["bvs"]
+  }
+]
+}
