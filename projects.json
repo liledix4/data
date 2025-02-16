@@ -2,6 +2,11 @@
 "$schema": null,
 "main": [
   {
+    "id": "3do",
+    "title": "3do",
+    "description": "“3do” is my first nickname ever. I’ve replaced it in 2019 in favor of the more unique one, “liledix4”. However, in 2025 I keep using this nickname for projects in my country, neighboring countries and few others – that is, this nickname is geographically bound to do local work, leaving the main nickname international."
+  },
+  {
     "id": "4"
   },
   {
@@ -101,6 +106,9 @@
     "id": "liledix4_youtube"
   },
   {
+    "id": "lilfm"
+  },
+  {
     "id": "micro"
   },
   {
@@ -116,6 +124,9 @@
 "redacted": [
   {
     "id": "_red_cross"
+  },
+  {
+    "id": "_red_st_frp"
   },
   {
     "id": "_red_sv_co"
