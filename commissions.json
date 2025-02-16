@@ -1,0 +1,7 @@
+{
+  "$schema": "./schemas/commissions.json",
+  "price_list": [
+    {
+    }
+  ]
+}

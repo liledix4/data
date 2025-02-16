@@ -1,1 +1,3 @@
-{}
+{
+  "$schema": "./schemas/music_albums.json"
+}

@@ -2,20 +2,23 @@
   "$schema": "https://json-schema.org/draft-07/schema",
   "type": "object",
   "additionalProperties": false,
-  "required": ["$schema", "list_of_music_tracks"],
+  "required": ["$schema", "price_list"],
   "properties": {
     "$schema": {
       "type": "string",
-      "pattern": "/music\\.json$"
+      "pattern": "/commissions\\.json$"
     },
-    "list_of_music_tracks": {
+    "price_list": {
       "type": "array",
       "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id", "title"],
+        "minProperties": 1,
         "properties": {
-          "#TBA": true
+          "price": {
+            "type": "number",
+            "minimum": 1
+          }
         }
       }
     }

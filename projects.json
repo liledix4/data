@@ -121,10 +121,25 @@
     "id": "micro"
   },
   {
-    "id": "music_player"
+    "id": "modules",
+    "url": {
+      "github": ["https://github.com/liledix4/modules"]
+    }
+  },
+  {
+    "id": "music_player",
+    "url": {
+      "github": ["https://github.com/liledix4/music"]
+    }
   },
   {
     "id": "music_production"
+  },
+  {
+    "id": "terminal_tools",
+    "url": {
+      "github": ["https://github.com/liledix4/terminal_tools"]
+    }
   },
   {
     "id": "video_production"

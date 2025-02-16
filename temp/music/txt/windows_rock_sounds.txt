@@ -1,0 +1,10 @@
+Asterisk
+Default Beep
+Device Connect
+Device Disconnect
+Device Failed to Connect
+Exclamation
+Logoff, Shutdown
+Logon
+Low Battery Alarm
+Theme Change

@@ -1,0 +1,8 @@
+{
+  "$schema": "./schemas/content.json",
+  "list": [
+    {
+      "id": "bvs_logo"
+    }
+  ]
+}

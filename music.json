@@ -1,1 +1,5 @@
-{}
+{
+  "$schema": "./schemas/music.json",
+  "list_of_music_tracks": [
+  ]
+}
