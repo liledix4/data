@@ -34,17 +34,19 @@
     "id": "bvs_website"
   },
   {
-    "id": "bvs_youtube"
+    "id": "bvs_youtube",
+    "versioning": "youtube_posting_date"
   },
   {
     "id": "cal"
   },
   {
-    "id": "coffeebeam"
+    "id": "coffeebeam",
+    "versioning": "standard"
   },
   {
     "id": "data",
-    "versioning": false
+    "versioning": "dates"
   },
   {
     "id": "ddlcnh"
@@ -56,7 +58,8 @@
     "id": "ddlcnh_website"
   },
   {
-    "id": "ddlcnh_youtube"
+    "id": "ddlcnh_youtube",
+    "versioning": "youtube_posting_date"
   },
   {
     "id": "liledix4_api"
@@ -103,7 +106,8 @@
     "id": "liledix4_website"
   },
   {
-    "id": "liledix4_youtube"
+    "id": "liledix4_youtube",
+    "versioning": "youtube_posting_date"
   },
   {
     "id": "lilfm"
