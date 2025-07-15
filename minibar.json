@@ -1,0 +1,84 @@
+{
+  "toolbarLinks": [
+    {
+      "text": "YouTube",
+      "emoji": "▶️", "url": "https://www.youtube.com/@liledix4"
+    },
+    {
+      "text": "Ice Break!",
+      "emoji": "🧊", "url": "https://liledix4.github.io/icebreak"
+    },
+    {
+      "text": "Bombs vs. Sleepwalkers",
+      "emoji": "💣", "url": "https://bvsgame.github.io"
+    },
+    {
+      "text": "DDLC New Heading",
+      "emoji": "💌", "url": "https://ddlcnh.github.io"
+    },
+    {
+      "text": "GitHub",
+      "emoji": "🦑", "url": "https://github.com/liledix4"
+    }
+  ],
+  "moreBlocks": [
+    {
+      "section": "Social Media",
+      "blocks": [
+        {
+          "text": "YouTube",
+          "color": "#bb4444",
+          "type": "wide",
+          "emoji": "▶️",
+          "url": "https://www.youtube.com/@liledix4",
+          "messages": [
+            {
+              "image": "https://i.ytimg.com/vi/K6iwrqZ2EEY/hqdefault.jpg",
+              "url": "https://www.youtube.com/watch?v=K6iwrqZ2EEY"
+            },
+            {
+              "image": "https://i.ytimg.com/vi/pyooQjRInlE/hqdefault.jpg",
+              "url": "https://www.youtube.com/watch?v=pyooQjRInlE"
+            }
+          ]
+        },
+        { "text": "GitHub", "emoji": "🦑", "url": "https://github.com/liledix4" }
+      ]
+    },
+    {
+      "section": "Projects",
+      "blocks": [
+        {
+          "text": "Bombs vs. Sleepwalkers",
+          "type": "wide",
+          "emoji": "💣",
+          "url": "https://bvsgame.github.io"
+        },
+        {
+          "text": "DDLC New Heading",
+          "color": "#dd77aa",
+          "type": "wide",
+          "emoji": "💌",
+          "url": "https://ddlcnh.github.io",
+          "messages": [
+            {
+              "text": "YouTube channel",
+              "image": "https://yt3.googleusercontent.com/F4x1o_fzpWilveer1oMJs0IJ90wXz64CoRsaUPfGbO8DtB8uSpqBZiVmVlBjF0QGMh56G71Gew=w10000",
+              "url": "https://www.youtube.com/@DDLCNH"
+            },
+            {
+              "text": "Demo script of DDLC:NH Act 4 is in the works! See the announcement.",
+              "progress": 30,
+              "url": "https://www.youtube.com/post/UgkxVM0wOHdepwa5kTLqf-0NiKHm7XKu7is9"
+            }
+          ]
+        },
+        {
+          "text": "Ice Break!",
+          "emoji": "🧊",
+          "url": "https://liledix4.github.io/icebreak"
+        }
+      ]
+    }
+  ]
+}
