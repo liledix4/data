@@ -1,0 +1,351 @@
+{
+  "$schema": "https://liledix4.github.io/icebreak/data.schema.json",
+  "more_to_come": true,
+  "tasks": [
+    {
+      "title": "Bombs vs. Sleepwalkers – Music Videos for YouTube Channel",
+      "emoji": "💣",
+      "description": "<a href=\"https://www.youtube.com/@Bv.S\">https://www.youtube.com/@Bv.S</a>",
+      "status": "ongoing",
+      "subtasks": [
+        {
+          "title": "Preparing for rendering",
+          "description": "Since July 14, 2025",
+          "last_update": "2025.07.14",
+          "status": "ongoing",
+          "progress": 0,
+          "progress_goal": 100,
+          "progress_goal_precision": "more",
+          "progress_direction": "+",
+          "progress_element": "videos are prepared to render",
+          "progress_encouragement": false
+        },
+        {
+          "title": "Rendering",
+          "description": "Since July 14, 2025",
+          "last_update": "2025.07.14",
+          "status": "ongoing",
+          "progress": 1,
+          "progress_goal": 100,
+          "progress_goal_precision": "more",
+          "progress_direction": "+",
+          "progress_element": "videos are rendered",
+          "progress_encouragement": false
+        },
+        {
+          "title": "Uploading",
+          "description": "Since July 14, 2025",
+          "last_update": "2025.07.14",
+          "status": "pending",
+          "progress": 0,
+          "progress_goal": 100,
+          "progress_goal_precision": "more",
+          "progress_direction": "+",
+          "progress_element": "videos are uploaded",
+          "progress_encouragement": false
+        },
+        {
+          "title": "Sorting by playlists",
+          "description": "Since July 14, 2025",
+          "last_update": "2025.07.14",
+          "status": "pending",
+          "progress": 0,
+          "progress_goal": 100,
+          "progress_goal_precision": "more",
+          "progress_direction": "+",
+          "progress_element": "videos are sorted",
+          "progress_encouragement": false
+        }
+      ]
+    },
+    {
+      "title": "Bombs vs. Sleepwalkers – Public Music Files",
+      "emoji": "💣",
+      "description": "<a href=\"https://archive.org/details/bvsgame\">https://archive.org/details/bvsgame</a><br>Also on Google Drive, MEGA, Discord server and Telegram.",
+      "status": "slowdown",
+      "subtasks": [
+        {
+          "title": "Fix meta tags",
+          "status": "slowdown",
+          "last_update": "2025.07.14"
+        },
+        {
+          "title": "Upload to Archive.org",
+          "status": "pending",
+          "last_update": "2025.07.14"
+        },
+        {
+          "title": "Upload to Discord server",
+          "status": "pending",
+          "last_update": "2025.07.14"
+        },
+        {
+          "title": "Upload to Google Drive",
+          "status": "pending",
+          "last_update": "2025.07.14"
+        },
+        {
+          "title": "Upload to MEGA",
+          "status": "pending",
+          "last_update": "2025.07.14"
+        },
+        {
+          "title": "Upload to Telegram channel",
+          "status": "pending",
+          "last_update": "2025.07.14"
+        }
+      ]
+    },
+    {
+      "title": "Changing format of local notes (from Markdown and TXT to Q, my own format)",
+      "description": "Helpful string for Everything: <code>&lt;&lt;ext:q&gt;|&lt;ext:md \".q.md\"&gt;&gt; !path:\\VSCodium\\User\\History\\-</code>",
+      "emoji": "🗒️",
+      "status": "done",
+      "progress": 0,
+      "progress_checkpoint": 187,
+      "progress_goal": 1008,
+      "progress_element": "note files",
+      "progress_precision": true,
+      "progress_direction": "-",
+      "last_update": "2025.07.13"
+    },
+    {
+      "title": "Reinstalling virtual musical instruments",
+      "emoji": "🎹",
+      "status": "slowdown",
+      "subtasks": [
+        {
+          "title": "Step 1 / P",
+          "status": "slowdown",
+          "progress": 152,
+          "progress_checkpoint": 157,
+          "progress_element": "instruments",
+          "progress_precision": true,
+          "progress_goal": 170,
+          "progress_goal_precision": "more",
+          "progress_direction": "-",
+          "last_update": "2025.07.10"
+        },
+        {
+          "title": "Step 2 / I",
+          "status": "slowdown",
+          "progress": 170,
+          "progress_element": "instruments",
+          "progress_precision": "less",
+          "progress_goal": 170,
+          "progress_direction": "-",
+          "last_update": "2025.07.10"
+        },
+        {
+          "title": "Step 3 / B",
+          "status": "slowdown",
+          "progress": 170,
+          "progress_element": "instruments",
+          "progress_precision": "less",
+          "progress_goal": 170,
+          "progress_direction": "-",
+          "last_update": "2025.07.10"
+        }
+      ]
+    },
+    {
+      "title": "Reinstalling programs",
+      "emoji": "💾",
+      "status": "slowdown",
+      "progress": 100,
+      "progress_precision": "more",
+      "progress_element": "programs",
+      "progress_direction": "-",
+      "last_update": "2025.07.05",
+      "subtasks": [
+        {
+          "title": "I need more correct way of counting",
+          "description": "It would allow more precise progress count",
+          "emoji": "⚠️"
+        }
+      ]
+    },
+    {
+      "title": "Verifying quality of classic Doctor Who episodes (quick rewatching)",
+      "emoji": "🔷",
+      "status": "ongoing",
+      "subtasks": [
+        {
+          "title": "7th Doctor",
+          "status": "done",
+          "progress": 0,
+          "progress_goal": 59,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-"
+        },
+        {
+          "title": "6th Doctor",
+          "status": "done",
+          "progress": 0,
+          "progress_goal": 38,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-"
+        },
+        {
+          "title": "5th Doctor",
+          "status": "done",
+          "progress": 0,
+          "progress_goal": 89,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-"
+        },
+        {
+          "title": "4th Doctor",
+          "status": "ongoing",
+          "progress": 98,
+          "progress_checkpoint": 112,
+          "progress_goal": 186,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-",
+          "last_update": "2025.07.10"
+        },
+        {
+          "title": "3rd Doctor",
+          "status": "pending",
+          "progress": 124,
+          "progress_goal": 128,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-",
+          "last_update": "2025.07.05"
+        },
+        {
+          "title": "2nd Doctor",
+          "status": "pending",
+          "progress": 119,
+          "progress_goal": 119,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-",
+          "last_update": "2025.07.05"
+        },
+        {
+          "title": "1st Doctor",
+          "status": "pending",
+          "progress": 128,
+          "progress_goal": 128,
+          "progress_element": "episodes",
+          "progress_precision": true,
+          "progress_direction": "-",
+          "last_update": "2025.07.05"
+        }
+      ]
+    },
+    {
+      "title": "liledix4 Ice Break: Webpage Version",
+      "description": "It was started as a static Markdown file, but evolved into JSON that is parsed with JavaScript for frontend",
+      "emoji": "🧊",
+      "subtasks": [
+        {
+          "title": "Version 0.3",
+          "last_update": "2025.07.14",
+          "emoji": "3️⃣",
+          "status": "pending",
+          "subtasks": [
+            {
+              "title": "Read GitHub issues using API",
+              "description": "For example: <code>https://api.github.com/repos/liledix4/icebreak/issues</code><br>More in <a href=\"https://docs.github.com/en/rest/issues/issues\">GitHub documentation</a>.",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "title": "Version 0.2",
+          "description": "Introducing versioning! Among many other things.",
+          "last_update": "2025.07.14",
+          "emoji": "2️⃣",
+          "status": "pending",
+          "subtasks": [
+            {
+              "title": "Pinned tasks",
+              "description": "Make certain tasks appear at the very top of the page, to draw more attention.",
+              "status": "pending"
+            },
+            {
+              "title": "Foldable subtasks",
+              "description": "It's possible that some major tasks may have a lot of subtasks, therefore it must be possible to fold subtasks to make page more compact and easier to browse.",
+              "status": "pending"
+            },
+            {
+              "title": "Dynamic progress",
+              "description": "Web app could count progress automatically based on progress of subtasks. Also, status could be assumed automatically and last update can be taken from the latest date of subtasks.",
+              "status": "pending"
+            },
+            {
+              "title": "Archive of tasks",
+              "description": "Tasks that don't need to appear on the page can be hidden to archive.",
+              "status": "pending"
+            },
+            {
+              "title": "Description formatting",
+              "description": "Clickable links and just Markdown parsing!",
+              "status": "pending"
+            },
+            {
+              "title": "Grid view",
+              "description": "Make it possible to switch between grid and list views.",
+              "status": "pending"
+            },
+            {
+              "title": "Embed images",
+              "description": "Just make tasks look less boring.",
+              "status": "pending"
+            },
+            {
+              "title": "Focused view for tasks",
+              "description": "Tasks may have IDs, so that tasks could be shown separately from the whole list, using anchor URLs like: <code>https://liledix4.github.io/icebreak#taskid</code>",
+              "status": "pending"
+            },
+            {
+              "title": "Load tasks on scroll",
+              "description": "Don't load all tasks in one go. It hurts the performance. Instead, load more tasks as soon as the user scrolls to the bottom of the page. It has no impact on the network connectivity, since web app loads full JSON file anyway.",
+              "status": "pending"
+            },
+            {
+              "title": "Live reload of tasks!",
+              "description": "Without leaving the webpage, simply reload JSON file that may be freshly uploaded!",
+              "status": "pending"
+            },
+            {
+              "title": "Task priorities",
+              "description": "There can be several criteria to make it work dynamically: <ol><li>Status. Completed tasks move lower, tasks in progress move higher.</li><li>Progress. If it's lower, task moves higher.</li><li>JSON data can have a property <code>task_weight</code> – the bigger the weight, the bigger the impact of progress.</li></ol>",
+              "status": "pending"
+            }
+          ]
+        },
+        {
+          "title": "Version 0.1",
+          "last_update": "2025.07.06",
+          "emoji": "1️⃣",
+          "status": "done",
+          "subtasks": [
+            {
+              "title": "JavaScript: turn \"statuses\" into an array of objects",
+              "status": "done",
+              "last_update": "2025.07.06"
+            },
+            {
+              "title": "Progress bars, maximum/initial values, incrementing/decrementing",
+              "status": "done",
+              "last_update": "2025.07.06"
+            },
+            {
+              "title": "Task descriptions",
+              "status": "done",
+              "last_update": "2025.07.06"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
